@@ -48,7 +48,14 @@ export default function App() {
 
       <main>
         <section id="inicio" className="hero">
-          <div className="sol" aria-hidden="true" />
+             <svg className="taza" viewBox="0 0 200 200" aria-hidden="true">
+     <path className="vapor" d="M70 62 C58 46 82 36 70 20" />
+     <path className="vapor" d="M100 62 C88 46 112 36 100 20" />
+     <path className="vapor" d="M130 62 C118 46 142 36 130 20" />
+     <path className="cuerpo" d="M40 80 H150 V125 C150 155 130 172 100 172 H90 C60 172 40 155 40 125 Z" />
+     <path className="asa" d="M150 95 H162 C182 95 182 135 162 135 H146" />
+     <ellipse className="plato" cx="95" cy="181" rx="75" ry="8" />
+   </svg>
           <h1>Café tostado<br />aquí mismo,<br />cada mañana.</h1>
           <p>Desayunos, meriendas y café de especialidad en una esquina tranquila. Abrimos de 7:30 a 20:00.</p>
           <a className="btn" href="#carta">Ver la carta</a>
